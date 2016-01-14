@@ -91,6 +91,8 @@ void checkForEstique(TgBot::Message::Ptr message)
 		if (boost::starts_with(message->text, "!") ||
 			boost::starts_with(message->text, "/") ||
 			boost::starts_with(message->text, "@") ||
+			boost::starts_with(message->text, "BQ") ||
+			message->text.find('|') != std::string::npos ||
 			message->text == "novo estique" ||
 			message->text == "estiques" ||
 			message->text == "stats" ||
