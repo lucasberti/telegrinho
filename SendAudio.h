@@ -32,4 +32,6 @@ const std::string XIS_CHUPANO_FILE_ID = "AwADAQADEAADK3zfBeb564h2rREyAg";
 const std::string TREVAH_FILE_ID = "AwADAQADDwADK3zfBSkdgqWBvnTgAg";
 const std::string MISS_NORDESTINA_DOLAR = "AwADAQADEQADK3zfBcJQnHZ8bUW-Ag";
 
+const std::string HASTAD_MEU_DEUS = "AwADAQADRAIAAuoT2AAB6GqK0bAYOqIC";
+
 void checkForAudio(TgBot::Message::Ptr message);
